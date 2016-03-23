@@ -1,25 +1,21 @@
-<footer class="site-footer">
+<footer class="site__footer" id="site__footer">
+  <div class="container wrapper">
+    <small><strong>{{ site.owner.name }}</strong> <small>&copy; {{ site.time | date: '%Y' }} All Rights Reserved.</small></small>
+  </div>
+</footer>
+
+
+<!-- <footer class="site-footer">
 
   <div class="wrapper">
 
-    <h2 class="footer-heading">{{ site.title }}</h2>
+    <h4 class="footer-heading">&copy; 2016 {{ site.owner.name }}</h4>
 
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
         <ul class="contact-list">
           <li>{{ site.title }}</li>
           <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-2">
-        <ul class="social-media-list">
-          {% if site.github_username %}
-          <li>
-            {% include icon-github.html username=site.github_username %}
-          </li>
-          {% endif %}
-
           {% if site.twitter_username %}
           <li>
             {% include icon-twitter.html username=site.twitter_username %}
@@ -36,3 +32,4 @@
   </div>
 
 </footer>
+ -->

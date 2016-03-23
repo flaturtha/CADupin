@@ -1,0 +1,162 @@
+/* ==========================================================================
+   NAVIGATION..MENUS
+   ========================================================================== */
+
+.nav__basic {
+	// border: 1px dotted blue;
+	margin: -1rem auto 1rem auto;
+	padding: 0;
+	text-align: center;
+	list-style: none;
+	overflow: hidden;
+	@media screen and (min-width: 700px){
+			width: 700px;
+	}
+	.active {
+			font-weight: bold;
+			letter-spacing: 1px;
+			text-decoration: underline;
+			color: $acolor;
+			// border-bottom: 2px solid #fff; --> set instead of underline when using menu subheads
+		}
+	a {
+		// border: 1px dotted #fff;
+		font-size: 1.25rem;
+		color: $paper;
+		text-align: center;
+		// margin: 1rem auto 1rem auto;
+		// padding: 0.75rem;
+		// padding: 1.5625rem;
+		padding: 1rem;
+		// line-height: 7.1875rem;
+		text-decoration: none;
+		// line-height: 2.5;
+		&:hover {
+			text-decoration: underline;
+			// text-decoration: overline;
+			// border-top: 1px solid white;
+			// border-bottom: 1px solid white;
+		}
+		@media screen and (min-width: 60rem) {
+			// padding: 1.25rem 0.75rem;
+			// margin: 1rem 0.5rem;
+			// display: block;
+			// float: left;
+		}
+	}
+}
+
+.navicon {
+	// border: 1px solid orange;
+	color: $paper;
+	@extend .h2;
+	font-size: 2.5rem;
+	margin: 0;
+	// padding: 2.25rem 0 0.25rem 0;
+	// font-size: 30px;
+	// float: right;
+	position: absolute;
+	top: 1.25rem;
+	right: 1.25rem;
+	@media screen and (min-width: 375px) {
+		position: absolute;
+		top: 2.25rem;
+		right: 2.25rem;
+	}
+	@media screen and (min-width: 410px) {
+		position: absolute;
+		top: 1.5rem;
+		right: 2rem;
+	}
+	@media screen and (min-width: 701px) {
+		display: none;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*================================
+=            MAIN NAV            =
+================================*/
+
+/* all css commented out until rebuilt */
+
+
+// #mainmenu {
+//  // border: 1px solid green;
+//  font-variant: small-caps;
+//  display: flex;
+//  flex: 1;
+//  margin: 0.5rem 0 0 0;
+//  // padding-bottom: 0.75rem;
+//  ul {
+//    // border: 1px solid orange;
+//    width: 100%;
+//    margin: 0 auto;
+//    list-style-type: none;
+//    display: flex;
+//    flex-wrap: wrap;
+//    justify-content: space-around;
+//    a {
+//      color: #fff;
+//      text-decoration: none;
+//      padding: 2px 5px;
+//      // margin: 5px;
+//      // &:link, &:visited {
+//      //  color: $acolor;
+//      //  padding: 0 1px;
+//      //  text-decoration: underline;
+//      //  } 
+//      &:hover, &:active {
+//        background-color: $acolor;
+//        color: #fff;
+//        text-decoration: none;
+//        // text-shadow: 1px 1px 1px #333;
+//      }
+//    }
+//    .active {
+//      background-color: #fff;
+//      color: $acolor;
+//      text-transform: uppercase;
+//      // border: 1px solid white;
+//      border-radius: 2px;
+//    }
+//  }
+// }
+
+
+
+/*-----  End of MAIN NAV  ------*/
+
+
+
+
+
+

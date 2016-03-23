@@ -1,0 +1,33 @@
+{
+  "name": "charliechan",
+  "version": "0.2.0",
+  "description": "TalesofMurder.com dev",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flaturtha/CharlieChan.git"
+  },
+  "author": "Rich Cook",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/flaturtha/CharlieChan/issues"
+  },
+  "homepage": "https://github.com/flaturtha/CharlieChan#readme",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-autoprefixer": "^3.0.4",
+    "grunt-browser-sync": "^2.2.0",
+    "grunt-contrib-concat": "^1.0.0",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-contrib-uglify": "^1.0.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-jekyll": "^0.4.4",
+    "grunt-postcss": "^0.8.0",
+    "grunt-sass": "^1.1.0",
+    "time-grunt": "^1.3.0"
+  }
+}

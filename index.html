@@ -1,23 +1,29 @@
 ---
 layout: default
+title: Prelaunch Sign up | Where it all begins
 ---
 
-<div class="home">
+<!-- For now, make the homepage a countdown timer'd pre-launch signup form, with the offer of a free short story in exchange for the email. -->
 
-  <h1 class="page-heading">Tales of Murder ... for readers with time to kill!</h1>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+<div class="homepage clearfix">
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+  <section class="squeeze">
+    <div class="container">
+      <header class="squeeze__header">
+        <h5 style="text-align:center;">Preheader</h5>
+        <h2>Teaser headline: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque laborum laudantium sapiente rem est eos magnam, odio dicta aperiam harum, porro, quidem assumenda mollitia id voluptates. Dignissimos cum, excepturi soluta!</h2>
+      </header>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+      <section class="countdown">
+        COUNTDOWN CLOCK
+      </section>
 
-</div>
+      <section class="emailsignup">
+        <form action="email">Sign up today!</form>
+      </section>
+
+    </div> <!-- end of container -->
+  </section> <!-- end of section squeeze -->
+
+</div> <!-- end div homepage -->

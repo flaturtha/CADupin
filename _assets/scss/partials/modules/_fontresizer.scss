@@ -1,0 +1,25 @@
+.fontresizer {
+  border: 1px solid $acolor;
+  margin: 1rem auto;
+  padding: 0 -1rem;
+  // max-width: 600px;
+  width: 50%;
+  font-size: 0.75rem;
+  text-align: center;
+  button {
+    color: $acolor;
+    background-color: $paper;
+    // border: 2px solid $paper;
+    padding: 0.5rem 1rem;
+    margin-right: 0.5rem;
+  }
+  .fontresizer__icon {
+    color: $acolor;
+  }
+  @media screen and (min-width: 960px) {
+    width: 20%;
+    
+  }
+}
+
+ // style="background-color: darkred; margin: 1rem; padding: 0.5rem 1rem; text-align: center;"

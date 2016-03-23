@@ -1,0 +1,148 @@
+/* ==========================================================================
+   UTILITY CLASSES
+   ========================================================================== */
+
+
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+
+.hidden {
+  display: none !important;
+}
+
+// replace with Neat grid
+.wrap {
+  max-width: 60rem;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.hangingindent {
+  padding-left: 1.375rem;
+  text-indent: -1.375rem;
+}
+
+.indent {
+  text-indent: 2rem;
+}
+.indent2 {
+  text-indent: 4rem;
+}
+.indent3 {
+  text-indent: 6rem;
+}
+.indent4 {
+  text-indent: 8rem;
+}
+.indent5 {
+  text-indent: 10rem;
+}
+.indent6 {
+  text-indent: 12rem;
+}
+.indent7 {
+  text-align: center;
+  letter-spacing: 0.5rem;
+  @media screen and (min-width: 400px) {
+    letter-spacing: 0;
+    text-align: left;
+    text-indent: 14rem;
+  }
+}
+.neg-indent {
+  text-indent: -2rem;
+}
+
+
+
+
+
+.px600 {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.specialnote {
+  // background-color: silver;
+  // background-color: lightgrey;
+  // border: 1px dotted darkgrey;
+  color: #000;
+  font-style: italic;
+  font-size: 1.25rem;
+  text-align: right;
+  // line-height: 2;
+  max-width: 85%;
+  margin: 2rem auto 0 auto;
+  padding: 3rem;
+//   background: -moz-radial-gradient(center, ellipse cover,  rgba(0,0,0,0.65) 24%, rgba(0,0,0,0.65) 41%, rgba(0,0,0,0.41) 62%, rgba(0,0,0,0.25) 76%, rgba(0,0,0,0.1) 89%, rgba(0,0,0,0) 97%); /* FF3.6+ */
+//   background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(24%,rgba(0,0,0,0.65)), color-stop(41%,rgba(0,0,0,0.65)), color-stop(62%,rgba(0,0,0,0.41)), color-stop(76%,rgba(0,0,0,0.25)), color-stop(89%,rgba(0,0,0,0.1)), color-stop(97%,rgba(0,0,0,0))); /* Chrome,Safari4+ */
+//   background: -webkit-radial-gradient(center, ellipse cover,  rgba(0,0,0,0.65) 24%,rgba(0,0,0,0.65) 41%,rgba(0,0,0,0.41) 62%,rgba(0,0,0,0.25) 76%,rgba(0,0,0,0.1) 89%,rgba(0,0,0,0) 97%); /* Chrome10+,Safari5.1+ */
+//   background: -o-radial-gradient(center, ellipse cover,  rgba(0,0,0,0.65) 24%,rgba(0,0,0,0.65) 41%,rgba(0,0,0,0.41) 62%,rgba(0,0,0,0.25) 76%,rgba(0,0,0,0.1) 89%,rgba(0,0,0,0) 97%); /* Opera 12+ */
+//   background: -ms-radial-gradient(center, ellipse cover,  rgba(0,0,0,0.65) 24%,rgba(0,0,0,0.65) 41%,rgba(0,0,0,0.41) 62%,rgba(0,0,0,0.25) 76%,rgba(0,0,0,0.1) 89%,rgba(0,0,0,0) 97%); /* IE10+ */
+//   background: radial-gradient(ellipse at center,  rgba(0,0,0,0.65) 24%,rgba(0,0,0,0.65) 41%,rgba(0,0,0,0.41) 62%,rgba(0,0,0,0.25) 76%,rgba(0,0,0,0.1) 89%,rgba(0,0,0,0) 97%); /* W3C */
+//   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.download__smallprint {
+  margin: 0 auto 2rem;
+  width: 650px;
+  max-width: 90%;
+  text-align: left;
+  font-size: 0.95rem;
+  font-style: italic;
+}
+
+.grit {
+   -webkit-mask-image: url("/assets/img/mytexture6.png");
+   mask-image: url("/assets/img/mytexture6.png");
+   // -webkit-mask-repeat: repeat-x;
+   // mask-repeat: repeat-x;
+   // -webkit-mask-clip: border;
+   // -webkit-mask-origin: border;
+}
+
+
+
+.progbar {
+  margin-top: 1rem;
+}
+
+.redbutton {
+  text-align: center;
+  background-color: $acolor;
+  color: #fff;
+  @include button(flat, $base-accent-color);
+  
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.bloodied {
+  color: $acolor;
+}
+
+.sitetitle {
+  color: $acolor;
+  font-weight: bold;
+}
+
+.caps {
+  text-transform: uppercase;
+}

@@ -1,0 +1,43 @@
+.fade-in-element {
+  ///////////////////////////////////////////////////////////////////////////////////
+  $base-border-color: $paper !default;
+  $base-border-radius: 3px !default;
+  $base-background-color: $acolor !default;
+  $base-line-height: 1.5em !default;
+  $dark-gray: #333 !default;
+  $base-font-color: $dark-gray !default;
+  
+  // line-height: $base-line-height;
+
+  p {
+    color: $paper;
+    // line-height: $base-line-height;
+  }
+  //////////////////////////////////////////////////////////////////////////////////
+
+  @include clearfix;
+  background: $acolor;
+  border-radius: $base-border-radius;
+  border: 1px solid silver;
+  box-shadow: 0 2px 2px transparentize(black, 0.8);
+  margin: 0 auto 4em auto;
+  padding: 2rem;
+  // text-align: center;
+  width: 100%;
+  max-width: 600px;
+
+}
+
+.js-fade-element-hide {
+  opacity: 0;
+}
+
+.js-fade-element-show {
+  @include transition (all 1.5s ease-in-out);
+  opacity: 1;
+}
+
+.answer__first {
+  font-weight: bold;
+  text-align: center;
+}

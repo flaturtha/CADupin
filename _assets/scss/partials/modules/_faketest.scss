@@ -1,0 +1,43 @@
+/* ==========================================================================
+   FAKE TESTIMONIALS
+   ========================================================================== */
+
+.faketest {
+	// border: 1px solid crimson;
+	// margin: 0 auto;
+	// text-align: center;
+	li {
+		background-color: transparent;
+		@media screen and (min-width: 30rem) {
+			width: 33%;
+			float: left;
+		}
+	}
+}
+
+.faketest__bq {
+	// border: 1px solid crimson;
+	background-color: transparent;
+	color: $pcolor;
+	font-size: 1.25rem;
+	font-style: italic;
+	margin: 0.25rem;
+	border: none;
+	p:first-of-type:first-line {
+		color: $pcolor;
+		// font-size: 0.85rem;
+	}
+}
+
+cite {
+	color: $acolor;
+	font-style: normal;
+}
+
+.faketest__footer {
+	font-size: small;
+	color: lighten($pcolor, 15);
+	text-align: center;
+	margin: 0 auto 2rem auto;
+	max-width: 330px;
+}
