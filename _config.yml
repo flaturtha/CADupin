@@ -24,7 +24,7 @@ wpm: 200
 owner:
   name: Tales of Murder Press, LLC
   email: contact@talesofmurder.com
-  google: 
+  google:
     plus: talesofmurderpress
     analytics: UA-42672955-1
 
@@ -41,6 +41,8 @@ kramdown:
   toc_levels: 1..6
   enable_coderay: false
 
-include: [".htaccess"]
+include:
+  # - .htaccess /* add back if/when using Apache */
+  - _pages
 exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
 # gems: [jekyll-assets, autoprefixer-rails]
