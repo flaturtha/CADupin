@@ -1,0 +1,447 @@
+/*====================================
+=            LANDING PAGE            =
+====================================*/
+
+.wide {
+  width: 100%;
+  // height: 100%;
+  background-color: $paper;
+  margin: 1rem 0;
+  padding: 16px;
+  border-top: 3px solid $smallprint;
+  border-bottom: 3px solid $smallprint;
+  @media screen and (min-width: 500px) {
+    width: 90%;
+    max-width: 960px;
+    margin: 2rem auto;
+    border-right: 3px solid $smallprint;
+    border-left: 3px solid $smallprint;
+  }
+}
+
+.lp {
+  width: 960px;
+  max-width: 95%;
+  margin: 0 auto;
+  text-align: center;
+  @media screen and (min-width: 500px) {
+    // text-align: left;
+  }
+}
+
+.lp__main {
+  margin: 1rem 0;
+  text-align: left;
+}
+
+.top-image {
+  margin: 1rem auto;
+  width: 200px;
+  max-width: 90%;
+}
+
+.subhead {
+  color: $acolor;
+  max-width: 400px;
+  margin: 0 auto;
+  &__top {
+    text-transform: uppercase;
+    font-size: 1.5rem
+  }
+  &__bottom {
+    font-size: 1.25rem;
+    @media screen and (min-width: 500px) {
+      // float: left;
+    }
+  }
+}
+
+.main-headline {
+  font-size: 1.75rem;
+}
+
+.titles {
+  margin: 1rem 0;
+  &__main {
+    padding-bottom: 1rem;
+    transform: rotate(-3deg);
+    font-size: 3rem;
+    // float: left;
+    @media screen and (min-width: 500px) {
+      font-size: 6rem;
+      // float: left;
+    }
+  }
+  &__sub {
+    font-weight: bold;
+  }
+  .author {
+    text-transform: uppercase;
+    font-size: 1.25rem;
+  }
+}
+
+#challenge .smallprint {
+  color: $pcolor;
+  margin: 0.5rem;
+  text-align: left;
+  font-size: 0.75rem;
+}
+
+.disclaimer {
+  color: $pcolor;
+  margin: 0.5rem;
+  padding: 0.25rem;
+  text-align: left;
+  font-size: 0.75rem;
+  font-weight: bold;
+  @media screen and (min-width: 500px) {
+    text-align: center;
+  }
+}
+
+.form {
+  text-align: center;
+  border: 1px dashed $smallprint;
+  margin: 2rem auto 0;
+  padding: 1rem;
+  padding-top: 0;
+  @media screen and (min-width: 500px) {
+    width: 90%;
+    max-width: 500px;
+    // float: left;
+  }
+}
+
+.titles__image {
+  float: right;
+  width: 200px;
+  margin: 1rem 0 0 0;
+  @media screen and (min-width: 500px) {
+    // float: none;
+    width: 250px;
+    // margin-top: 1rem;
+  }
+  @media screen and (min-width: 700px) {
+    // float: right;
+    // margin-top: 0;
+  }
+}
+
+
+
+/*====================================
+=             STORY PAGE             =
+====================================*/
+
+.topbanner {
+  background-color: $acolor;
+  // border-bottom: 3px solid $badblood;
+  // box-shadow: 0px 10px 16px -6px rgba(0,0,0,0.75);
+  color: $paper;
+  font-weight: bold;
+  letter-spacing: 0.05rem;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  width: 100%;
+  margin: 0;
+  padding: 1rem 1rem 0.25rem;
+  @media screen and (min-width: 500px) {
+    p {
+      max-width: 800px;
+      margin: 0 auto;
+      padding-bottom: 0.5rem;
+    }
+  }
+}
+
+.story__bg {
+  width: 100%;
+  // height: 100%;
+  background-color: $paper;
+  margin: 0 auto;
+  padding: 16px;
+  @media screen and (min-width: 500px) {
+    max-width: 960px;
+  }
+}
+
+.story__header {
+  text-align: center;
+}
+
+.story__image1 {
+  max-width: 50%;
+  float: left;
+  margin-right: 0.5rem;
+  @media screen and (min-width: 500px) {
+    margin: 0 1.5rem 0 1rem;
+  }
+  @media screen and (min-width: 800px) {
+    margin: 2rem 1rem 1.5rem 8rem;
+  }
+}
+
+.hint {
+  // color: $paper;
+  // background-color: green;
+  font-weight: bold;
+  margin: 0 auto 1rem auto;
+  text-align: center;
+  button {
+    // text-align: left;
+    background-color: $acolor;
+    color: $paper;
+    border: 1px solid $acolor;
+    border-radius: 5px;
+    box-shadow: 5px 3px 10px $ghost;
+    &:hover, &:focus {
+      background-color: $paper;
+      color: $acolor;
+    }
+    &:active {
+      box-shadow: none;
+      color: $pcolor;
+      border-color: $pcolor;
+    }
+  } }
+
+
+
+/*====================================
+=           THANK YOU PAGE           =
+====================================*/
+
+.solution__header {
+  text-align: center;
+  padding: 0.5rem;
+  text-decoration: underline;
+}
+
+.solution__subhead {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.75rem;
+  padding: 0.5rem 0;
+}
+
+.top{
+  background-color: $acolor;
+  // padding: 1rem;
+  border-bottom: 3px solid $acolor;
+  margin: 0;
+  text-align: center;
+}
+
+.smallbanner {
+  background-color: $acolor;
+  color: #fffff7;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+header.topbanner {
+  background-color: $bgcolor;
+  background-image: url("/assets/img/pulpicons.svg"), url("/assets/img/site_logo4a_nocrow.png");
+  background-repeat: no-repeat, no-repeat;
+  background-position: center, center;
+  background-size: cover, 500px;
+  // opacity: 0.5;
+}
+
+.solution__banner {
+  margin: 0 auto 2rem;
+  padding: 1rem;
+  background-color: rgba(255,255,255,0.90);
+  border-radius: 3px;
+  max-width: 450px;
+  color: #242424;
+}
+
+.solution__banner .answer {
+    font-weight: bold;
+    font-size: 1.05rem;
+    color: $acolor;
+  }
+
+.solution {
+  width: 95%;
+  max-width: 960px;
+  border-bottom: 3px groove $badblood;
+  padding: 1rem;
+  margin: 0 auto;
+  @media screen and (min-width: 770px) {
+    border-right: 3px solid $acolor;
+    border-bottom: none;
+    float: left;
+    width: 50%;
+  }
+  .titles__image {
+    float: left;
+    width: 175px;
+    height: auto;
+    margin: 0 0 1rem -3rem;
+  }
+  h3 {
+    max-width: 80%;
+    // text-align: center;
+    margin: 0 auto 0.5rem;
+    color: $acolor;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+}
+
+.invite {
+  padding: 1rem;
+}
+
+.evolving {
+  background-image: url("/assets/img/shield2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  color: #fff;
+  padding: 3rem 1rem 1rem;
+  min-height: 300px;
+  h2 {
+    font-size: 5rem;
+    transform: rotate(-2deg);
+    font-family: $branding-font-family;
+  }
+  h3 {
+    font-size: 3rem;
+    margin: -1rem 0 1.5rem 0;
+    font-family: $branding-font-family;
+  }
+  h4 {
+    font-size: 4rem;
+    font-family: $branding-font-family;
+  }
+  @media screen and (min-width: 500px) {
+    // float: left;
+    // width: 50%;
+  }
+}
+
+.referafriend {
+  color: #fff;
+  padding: 2rem 1rem 1rem;
+  min-height: 300px;
+  h2 {
+    margin-bottom: 1.5rem;
+  }
+  h4 {
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-family: $branding-font-family;
+    margin-bottom: 1.5rem;
+    color: $acolor;
+    background-color: #fff;
+  }
+  p {
+    margin-bottom: 1.5rem;
+  }
+  @media screen and (min-width: 500px) {
+    // float: right;
+    width: 75%;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  .copy-link {
+    p {
+      box-shadow: inset 2px 2px darkgrey;
+      background-color: #fff;
+      // line-height: 24px;
+      margin: 0 auto;
+      padding: 0.5rem 0 0.5rem 0;
+      font-size: 0.85rem;
+      font-weight: bold;
+      color: $pcolor;
+    }
+    @media screen and (min-width: 500px) {
+      width: 60%;
+      margin: 0 auto;
+    }
+  }
+}
+
+
+
+
+
+
+
+/*----------  OLD LAYOUT  ----------*/
+.teaser {
+  background-color: #fffff7;
+  color:#242424;
+  padding: 16px;width: 90%;
+  margin: 30px auto;
+}
+
+
+.pl_email-form {
+  // display: inline-block;
+}
+
+.pl_email-tease {
+  color: $acolor;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+}
+
+input.pl_input {
+  font-family: FontAwesome;
+  font-style: normal;
+  text-align: center;
+  @media screen and (min-width: 500px) {
+    // width: 90%;
+    // max-width: 300px;
+    // float: left;
+  }
+}
+
+.pl_button {
+  width: 90%;
+  max-width: 290px;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  padding: 12px 24px;
+  margin: 0 auto;
+  border: 1px solid #898900;
+  border-radius: 8px;
+  background: #e1e100;
+  background: -webkit-gradient(linear, left top, left bottom, from(#e1e100), to(#898900));
+  background: -moz-linear-gradient(top, #e1e100, #898900);
+  background: linear-gradient(to bottom, #e1e100, #898900);
+  text-shadow: #626200 1px 1px 1px;
+  font: normal normal bold 20px arial;
+  color: #ffffff;
+  text-decoration: none;
+  // @media screen and (min-width: 500px ){
+  //   float: left;
+  // }
+}
+.pl_button:hover,
+.pl_button:focus {
+    border: 1px solid #c4c400;
+    background: #ffff00;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ffff00), to(#a4a400));
+    background: -moz-linear-gradient(top, #ffff00, #a4a400);
+    background: linear-gradient(to bottom, #ffff00, #a4a400);
+    color: $acolor;
+    text-decoration: none;
+}
+.pl_button:active {
+    background: #898900;
+    background: -webkit-gradient(linear, left top, left bottom, from(#898900), to(#898900));
+    background: -moz-linear-gradient(top, #898900, #898900);
+    background: linear-gradient(to bottom, #898900, #898900);
+}
+
+
+
+

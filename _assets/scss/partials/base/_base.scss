@@ -107,6 +107,11 @@ a {
   text-transform: uppercase;
 }
 
+.smallcaps {
+  font-variant: small-caps;
+  font-size: 0.8rem;
+}
+
 .inner-container {
   text-transform: none;
   max-width: 37.5rem;
@@ -121,7 +126,12 @@ Color='#444')";
   filter: drop-shadow(12px 12px 7px rgba(0,0,0,0.5));
 }
 
+.rightjustify {
+  text-align: right;
+  margin-right: 1rem;
+}
 
-
-
+.small {
+  font-size: 0.75rem;
+}
 
