@@ -197,14 +197,22 @@
     box-shadow: 5px 3px 10px $ghost;
     &:hover, &:focus {
       background-color: $paper;
-      color: $acolor;
     }
     &:active {
       box-shadow: none;
-      color: $pcolor;
       border-color: $pcolor;
     }
-  } }
+    a {
+      color: #fff;
+      &:hover, &:focus {
+        color: $acolor;
+      }
+      &:active {
+        color: $pcolor;
+      }
+    }
+  }
+}
 
 
 

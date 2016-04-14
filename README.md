@@ -6,11 +6,11 @@ An upgrade from the NOS (v 0.0.2) edition, using Jekyll 3.xx; revamp of pages an
 A simple microsite structure with five pages, in sequence:
 
 ```
-|-prelaunch.md                 # homepage during prelauch phase 1
-|-death_by_gas.md              # story page
-|-solution_death_by_gas.md     # solution/tease/refer-a-friend/prize levels
-|-leaderboard.md               # leaderboard ... link sent via email
-|-privacy.md                   # site's privacy policy
+|- prelaunch.md                 # homepage during prelauch phase 1
+|- death_by_gas.md              # story page
+|- solution_death_by_gas.md     # solution/tease/refer-a-friend/prize levels
+|- leaderboard.md               # leaderboard ... link sent via email
+|- privacy.md                   # site's privacy policy
 ```
 
 ###v0.1.2 founding members

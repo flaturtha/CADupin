@@ -32,13 +32,10 @@ title: solution
   <p class="expander__question">What evidence did Captain Pearson see that proved Herman Matthews killed his wife?</p>
 </article>
 
-<!-- <button class="hint">HINT: Who turned off the gas?<br><span class="small">Click to see the SOLUTION!</span></button> -->
-
 <div class="hint">
   <p class="ghost">HINT: Who turned off the gas?</p>
-  <button>GET THE SOLUTION <i class="fa fa-arrow-circle-right"></i></button>
+  <button><a href="/solution_death_by_gas/">GET THE SOLUTION <i class="fa fa-arrow-circle-right"></i></a></button>
 </div>
-<!-- <span class="largearrow">&#10144;</span> -->
 
 <footer style="text-align:right;">
   <hr>
