@@ -1,5 +1,5 @@
 ---
-layout: landingpage4
+layout: lp_story
 permalink: /death_by_gas/
 title: solution
 ---
@@ -45,5 +45,3 @@ title: solution
   <p class="right small">Brought to you by<br><span class="bloodied italic">Tales of Murder, for readers with time to <span class="underline">kill</span>!</span><br>&copy; 2016 TALES OF MURDER PRESS, LLC</p>
   <!-- <p class="right small copyright">&copy; 2016 TALES OF MURDER PRESS, LLC</p> -->
 </footer>
-
-</div> <!-- end div.lp -->

@@ -1,5 +1,5 @@
 ---
-layout: landingpage5
+layout: lp_solution
 permalink: /solution_death_by_gas/
 title: solution
 ---

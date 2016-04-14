@@ -1,5 +1,5 @@
 ---
-layout: landingpage3
+layout: lp_prelaunch
 permalink: /
 title: challenge
 ---
