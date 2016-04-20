@@ -27,11 +27,13 @@
         <![endif]-->
 
         <!--load jQuery, required-->
-        <script src="/assets/js/vendor/jquery-1.11.2.js"></script>
+        <!-- <script src="/assets/js/vendor/jquery-1.11.2.js"></script>
 
         <script src="/assets/js/vendor/jquery-ui.min.js"></script>
 
-        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js"></script> -->
+
+        <script src="https://code.jquery.com/jquery-1.12.3.min.js" integrity="sha256-aaODHAgvwQW1bFOGXMeX+pC4PZIPsvn2h1sArYOhgXQ=" crossorigin="anonymous"></script>
 
         <!-- TYPEKIT -->
         <script src="https://use.typekit.net/gwl0zuj.js"></script>
@@ -289,7 +291,33 @@
 });
 </script>
 
+<!-- KOL script
+<script>
+  $(document).ready(function(){
 
+    $('#submit_email').click(function(e){
+      $.ajax({
+        url: 'https://api.kickofflabs.com/v1/1905/subscribe',
+        data: $('#signup_form').serialize(),
+        dataType: 'jsonp',
+        jsonp: 'jsonp',
+        jsonpCallback: 'subscribe_callback',
+        timeout: 2000,
+        error: function() {
+          message = 'Could not subscribe the email address ' + $('#email').val();
+          alert(message);
+        }
+        });
+      e.preventDefault();
+    });
+
+  });
+
+  function subscribe_callback(data)
+  {
+    alert(data.email);
+  }
+</script> -->
 
 
 

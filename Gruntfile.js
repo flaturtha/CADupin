@@ -8,7 +8,7 @@ module.exports = function(grunt) {
 		// JEKYLL task config
 		jekyll: {
 			build: {
-				dest: '_site',
+				dest: '_site'
 				// baseurl: ''
 			}
 		},
@@ -44,8 +44,8 @@ module.exports = function(grunt) {
 			},
 			beforeconcat: ['Gruntfile.js', '_assets/coffee/lib/**/*.js'],
 			afterconcat: ['_assets/coffee/scripts.js']
-		}, 
-		
+		},
+
 		// UGLIFY JS
 		uglify: {
 			options: {
@@ -72,13 +72,13 @@ module.exports = function(grunt) {
 				dest: 'assets/fonts',
 				flatten: true
 			},
-			vendorjs: {
-				expand: true,
-				cwd: '_assets/coffee/vendor/',
-				src: '**',
-				dest: 'assets/js/vendor',
-				flatten: true
-			}
+			// vendorjs: {
+			// 	expand: true,
+			// 	cwd: '_assets/coffee/vendor/',
+			// 	src: '**',
+			// 	dest: 'assets/js/vendor',
+			// 	flatten: true
+			// }
 		},
 
 		// Watch task config
@@ -89,10 +89,10 @@ module.exports = function(grunt) {
 				tasks: ['sass']
 			},
 			jekyll: {
-				files: ['_layouts/*.html', '_includes/*.html', '_posts/*.md', 'assets/**/*.*', '*.html', '**/*.html'],
+				files: ['_layouts/*.html', '_includes/*.html', '_posts/*.md', '_pages/*.md', 'assets/**/*.*', '*.html', '**/*.html'],
 				tasks: ['jekyll']
 			}
-		}, //end of watch		
+		}, //end of watch
 
 		// BROWSERSYNC
 		browserSync: {
@@ -128,7 +128,7 @@ module.exports = function(grunt) {
 
 
 	grunt.registerTask('javascript', ['concat', 'uglify']);
-	grunt.registerTask('build', ['sass', 'copy', 'jekyll']); //'javascript', 
+	grunt.registerTask('build', ['sass', 'copy', 'jekyll']); //'javascript',
 	grunt.registerTask('default', ['build', 'browserSync', 'watch']);
 
 

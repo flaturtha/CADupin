@@ -6,9 +6,9 @@ title: solution
 
 <section class="top clearfix">
   <div class="evolving">
-    <h2 class="italic">MURDER</h2>
-    <h3>is on its way&hellip;</h3>
-    <h4 class="prepared">YOU ARE NOW PREPARED,<br> Honorary Detective!</h4>
+    <h2 class="italic">CONGRATULATIONS!</h2>
+    <h3>You've proven that you've got the chops to be a <em>real</em> literary detective &hellip;</h3>
+    <p class="prepared bold">Watch your inbox for your <span class="dossier">SPECIAL DOSSIER</span> &amp; be sure to <em>carefully</em> follow the instructions.</p>
   </div> <!-- end div.evolving -->
 
   <div class="referafriend">
@@ -16,7 +16,9 @@ title: solution
     <h2 class="title">CHALLENGE THEM TO SOLVE THE MYSTERY &amp; EARN MEMBERSHIPS, SPECIAL EDITIONS and MORE!!!</h2>
     <p class="subtitle">Share your unique link via email, Facebook or Twitter to earn  special bonuses from TALES OF MURDER PRESS for each friend who signs up.</p>
     <div class="copy-link">
-      <p>http://prelaunch.talesofmurder.com/?ref=REFERALID</p>
+        <p>
+          <a href="{{ social_url }}">{{ social_url }}</a>
+        </p>
     </div>
   </div> <!-- end div.referafriend -->
 
@@ -29,3 +31,11 @@ title: solution
 
 
 </section>
+
+
+
+
+<!--     <h2 class="italic">MURDER</h2>
+    <h3>is on its way&hellip;</h3>
+    <h4 class="prepared">YOU ARE NOW PREPARED,<br> Honorary Detective!</h4>
+ -->
