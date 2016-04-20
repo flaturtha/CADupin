@@ -1760,6 +1760,12 @@ mark, .mark {
 /*====================================
 =            LANDING PAGE            =
 ====================================*/
+ul.referral_icons {
+  padding: 1rem; }
+  ul.referral_icons li {
+    display: inline;
+    padding-right: 1rem; }
+
 .wide {
   width: 100%;
   background-color: #fffff0;
