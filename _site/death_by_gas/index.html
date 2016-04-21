@@ -291,45 +291,6 @@
 });
 </script>
 
-<!-- KOL script
-<script>
-  $(document).ready(function(){
-
-    $('#submit_email').click(function(e){
-      $.ajax({
-        url: 'https://api.kickofflabs.com/v1/1905/subscribe',
-        data: $('#signup_form').serialize(),
-        dataType: 'jsonp',
-        jsonp: 'jsonp',
-        jsonpCallback: 'subscribe_callback',
-        timeout: 2000,
-        error: function() {
-          message = 'Could not subscribe the email address ' + $('#email').val();
-          alert(message);
-        }
-        });
-      e.preventDefault();
-    });
-
-  });
-
-  function subscribe_callback(data)
-  {
-    alert(data.email);
-  }
-</script> -->
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 </body>

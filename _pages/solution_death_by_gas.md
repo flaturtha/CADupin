@@ -1,43 +1,36 @@
 ---
-layout: lp_solution
+layout:
 permalink: /solution_death_by_gas/
 title: solution
 ---
 
-<section class="top clearfix">
-  <div class="evolving">
-    <h2 class="italic">CONGRATULATIONS!</h2>
-    <h3>You've proven that you've got the chops to be a <em>real</em> literary detective &hellip;</h3>
-    <p class="prepared bold">Watch your inbox for your <span class="dossier">SPECIAL DOSSIER</span> &amp; be sure to <em>carefully</em> follow the instructions.</p>
-  </div> <!-- end div.evolving -->
-
-  <div class="referafriend">
-    <h4 class="why">But are your friends??</h4>
-    <h2 class="title">CHALLENGE THEM TO SOLVE THE MYSTERY &amp; EARN MEMBERSHIPS, SPECIAL EDITIONS and MORE!!!</h2>
-    <p class="subtitle">Share your unique link via email, Facebook or Twitter to earn  special bonuses from TALES OF MURDER PRESS for each friend who signs up.</p>
-    <ul class="referral_icons">
-      <li><i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i></li>
-      <li><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></li>
-      <li><i class="fa fa-envelope-o fa-2x" aria-hidden="true"></i></li>
-    </ul>
-    <div class="copy-link">
-      <p>http://prelaunch.talesofmurder.com/?ref=REFERALID</p>
-    </div>
-  </div> <!-- end div.referafriend -->
-
-</section> <!-- end section .top -->
-
-<section class="howitworks" style="background-color: #fffff0;text-align: center;padding-top: 2rem;">
-  <img src="/assets/img/invite.jpg" alt="">
-
-
-
-
-</section>
-
-
-
-<!--     <h2 class="italic">MURDER</h2>
-    <h3>is on its way&hellip;</h3>
-    <h4 class="prepared">YOU ARE NOW PREPARED,<br> Honorary Detective!</h4>
- -->
+<html>
+<head>
+<title>The Solution!</title>
+<meta charset="utf-8">
+<meta name="generator" content="KickoffLabs">
+<meta name="robots" content="index, follow">
+<style>
+  *{margin:0;padding:0;}
+  html{overflow:hidden;}
+  #full_kickoffpage{position:absolute;width:100%;height:100%;}
+  iframe{height:100%;width:100%;border:none;}
+</style>
+</head>
+<body>
+  <!-- BEGIN KICKOFFLABS EMBED CODE -->
+  <div id='full_kickoffpage'></div>
+  <script type="text/javascript">
+  (function(doc, el) {
+  var script_is_loaded = false;
+  var s = doc.createElement(el);
+  s.src = 'https://kickoffpages-kickofflabs.netdna-ssl.com/pages/1.9.0/kol_embed_page.js';
+  s.onload = s.onreadystatechange = function() {
+  var rs = this.readyState; if (script_is_loaded) return; if (rs) if (rs != 'complete') if (rs != 'loaded')  return;
+  script_is_loaded = true;
+  try { KOL_Embed_Page.makeFrame({container_id: 'full_kickoffpage', height: '100%', width: '100%', page_id: 93962}); } catch (e) {}};
+  var scr = doc.getElementsByTagName(el)[0], par = scr.parentNode; par.insertBefore(s, scr);
+  })(document, 'script');</script>
+  <!-- END KICKOFFLABS EMBED CODE -->
+</body>
+</html>
