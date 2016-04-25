@@ -33,5 +33,24 @@ title: TEST KOL
   var scr = doc.getElementsByTagName(el)[0], par = scr.parentNode; par.insertBefore(s, scr);
   })(document, 'script');</script>
   <!-- END KICKOFFLABS EMBED CODE -->
+
+  <script>
+    function get_query_string_value(name) {
+    var regex, regexS, results;
+    name = name.replace(/[\[]/, "\\\[").replace(/[\]]/, "\\\]");
+    regexS = "[\\?&]" + name + "=([^&#]*)";
+    regex = new RegExp(regexS);
+    results = regex.exec(window.location.href);
+    if (results) {
+      return decodeURIComponent(results[1].replace(/\+/g, " "));
+      console.log("hi");
+    }
+  }
+
+  var kolid = get_query_string_value('kolid');
+  if(kolid){
+    $('button a').attr('href', 'https://www.talesofmurder.com/solution_death_by_gas/?kolid=' + kolid);
+  }
+</script>
 </body>
 </html>
