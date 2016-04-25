@@ -14,21 +14,40 @@
 </style>
 </head>
 <body>
-  <!-- BEGIN KICKOFFLABS EMBED CODE -->
+  <p><!-- BEGIN KICKOFFLABS EMBED CODE --></p>
 <div id="full_kickoffpage"></div>
 <script type="text/javascript">
-(function(doc, el) {
-var script_is_loaded = false;
-var s = doc.createElement(el);
-s.src = 'https://kickoffpages-kickofflabs.netdna-ssl.com/pages/1.9.0/kol_embed_page.js';
-s.onload = s.onreadystatechange = function() {
-var rs = this.readyState; if (script_is_loaded) return; if (rs) if (rs != 'complete') if (rs != 'loaded')  return;
-script_is_loaded = true;
-try { KOL_Embed_Page.makeFrame({container_id: 'full_kickoffpage', height: '100%', width: '100%', page_id: 93962}); } catch (e) {}};
-var scr = doc.getElementsByTagName(el)[0], par = scr.parentNode; par.insertBefore(s, scr);
-})(document, 'script');</script>
+  (function(doc, el) {
+  var script_is_loaded = false;
+  var s = doc.createElement(el);
+  s.src = 'https://kickoffpages-kickofflabs.netdna-ssl.com/pages/1.9.0/kol_embed_page.js';
+  s.onload = s.onreadystatechange = function() {
+  var rs = this.readyState; if (script_is_loaded) return; if (rs) if (rs != 'complete') if (rs != 'loaded')  return;
+  script_is_loaded = true;
+  try { KOL_Embed_Page.makeFrame({container_id: 'full_kickoffpage', height: '100%', width: '100%', page_id: 93962}); } catch (e) {}};
+  var scr = doc.getElementsByTagName(el)[0], par = scr.parentNode; par.insertBefore(s, scr);
+  })(document, 'script');</script>
 
-<!-- END KICKOFFLABS EMBED CODE -->
+<p><!-- END KICKOFFLABS EMBED CODE --></p>
+
+
+  <script>
+  function get_query_string_value(name) {
+    var regex, regexS, results;
+    name = name.replace(/[\[]/, "\\\[").replace(/[\]]/, "\\\]");
+    regexS = "[\\?&]" + name + "=([^&#]*)";
+    regex = new RegExp(regexS);
+    results = regex.exec(window.location.href);
+    if (results) {
+      return decodeURIComponent(results[1].replace(/\+/g, " "));
+    }
+  }
+
+  var kolid = get_query_string_value('kolid');
+  if(kolid){
+    $('button a').attr('href', 'https://www.talesofmurder.com/solution_death_by_gas/?kolid=' + kolid);
+  }
+</script>
 
 </body>
 </html>
