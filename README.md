@@ -1,6 +1,8 @@
 #Charlie Chan (v 0.1) development site for TalesofMurder.com
 
-An upgrade from the NOS (v 0.0.2) edition, using Jekyll 3.xx; revamp of pages and site structure to allow GoPaywall and (eventually) SnipCart.
+An upgrade from the NOS (v 0.0.2) edition, using Jekyll 3.xx.
+
+SUMMARY (7.12.16): A simple 2-page landing page sequence to get initial email sign ups. Story pages, etc. will be added to flesh out the site.
 
 ###v0.1.1 prelaunch
 A simple microsite structure with five pages, in sequence:
@@ -8,13 +10,8 @@ A simple microsite structure with five pages, in sequence:
 ```
 |- prelaunch.md                 # homepage during prelauch phase 1
 |- death_by_gas.md              # story page
-|- solution_death_by_gas.md     # solution/tease/refer-a-friend/prize levels
-|- leaderboard.md               # leaderboard ... link sent via email
-|- privacy.md                   # site's privacy policy
+|- privacy.md                   # site's privacy policy (under development)
 ```
-
-###v0.1.2 founding members
-A mini-site edition of the full site with reduced pages but including basic requirements for prelaunch "founding member" subscription signups.
 
 ###v0.1.3 launch
 The full site launch ... may be v1.0.

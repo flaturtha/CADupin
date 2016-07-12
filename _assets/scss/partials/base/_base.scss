@@ -1,6 +1,6 @@
 * {
   margin: 0;
-  padding: 0; 
+  padding: 0;
   outline: 0;
   box-sizing: border-box !important;
 }
@@ -19,7 +19,8 @@
 
 html {
   box-sizing: border-box !important;
-  background-color: $bgcolor;
+  // background-color: $bgcolor;
+  background-image: url('/assets/img/5a.jpg');
 }
 
 body, caption, th, td, input, textarea, select, option, legend, fieldset, h1, h2, h3, h4, h5, h6 {
@@ -39,8 +40,8 @@ body {
 }
 
 /**
-* .frame creates a max-width 960px/100% (mobile) area 
-* to center content on page while allowing background 
+* .frame creates a max-width 960px/100% (mobile) area
+* to center content on page while allowing background
 * images/colors to be full width.
 **/
 .frame {

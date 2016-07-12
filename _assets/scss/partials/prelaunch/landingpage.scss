@@ -39,13 +39,30 @@ ul.referral_icons {
 
 .lp__main {
   margin: 1rem 0;
-  text-align: left;
+  // text-align: left;
 }
 
 .top-image {
-  margin: 1rem auto;
+  margin: -0.14rem 0.32rem;
   width: 200px;
-  max-width: 90%;
+  box-shadow: 0 0 50px #DBBC81;
+  // max-width: 90%;
+  border-radius: 50%;
+  // background-position: 10px 18px;
+  // &__R {
+  //   margin: -5rem 0 0 0;
+  // }
+}
+
+.top-imageBG {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 1rem auto; /* centers the circles */
+  background-image: url('/assets/img/5red4.jpg');
+  box-shadow: 0 0 10px #DBBC81;
+  // background-size: 50%;
+  // background-position: 50px 138px;
 }
 
 .subhead {
@@ -53,11 +70,17 @@ ul.referral_icons {
   max-width: 400px;
   margin: 0 auto;
   &__top {
+    font-weight: bold;
     text-transform: uppercase;
-    font-size: 1.5rem
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    @media screen and (min-width: 500px) {
+      font-size: 2rem;
+    }
   }
   &__bottom {
-    font-size: 1.25rem;
+    color: #242424;
+    font-size: 1.75rem;
     @media screen and (min-width: 500px) {
       // float: left;
     }
@@ -69,24 +92,65 @@ ul.referral_icons {
 }
 
 .titles {
-  margin: 1rem 0;
+  margin: 1.5rem auto;
+  background-image: url('/assets/img/radiator.png'), url('/assets/img/5red4.jpg');
+  background-repeat: no-repeat, repeat;
+  background-size: contain, cover;
+  background-position: center center, -0.14rem 0.32rem;
+  // background-color: lighten($acolor, 50%);
+  box-shadow: 1px 3px 10px -2px #952F26;
+  // border-bottom: 2px solid #242424;
+  // @media screen and (max-width: 500px) {
+  //   background-size: 75%, 100%;
+  // }
   &__main {
-    padding-bottom: 1rem;
+    // -webkit-text-stroke: 2px #242424;
+    // -webkit-text-stroke: 1px #000;
+    // margin-bottom: -1rem;
     transform: rotate(-3deg);
     font-size: 3rem;
+    opacity: 0.75;
     // float: left;
     @media screen and (min-width: 500px) {
       font-size: 6rem;
       // float: left;
     }
   }
+  &__bottom {
+    margin-top: -5rem;
+  }
   &__sub {
     font-weight: bold;
+    color: #DBBC81;
+    margin: -2rem 0 1rem 0;
+  }
+  &__sub2 {
+    text-decoration: underline;
+    vertical-align: 2rem;
+    margin-left: 1rem;
+    font-size: calc(60%);
   }
   .author {
     text-transform: uppercase;
-    font-size: 1.25rem;
+    font-size: 2rem;
+    margin-top: 1rem;
+    letter-spacing: 2px;
   }
+}
+
+#story .titles {
+  margin: 0 auto 1.5rem;
+}
+
+.lp__pcopy {
+  margin: 1rem auto -2rem;
+  padding-left: 1rem;
+  text-align: left;
+  width: 600px;
+  max-width: 90%;
+  font-weight: bold;
+  font-family: $header-font-family;
+  font-size: 1.25rem;
 }
 
 #challenge .smallprint {
@@ -110,7 +174,7 @@ ul.referral_icons {
 
 .form {
   text-align: center;
-  border: 1px dashed $smallprint;
+  // border: 1px dashed $smallprint;
   margin: 2rem auto 0;
   padding: 1rem;
   padding-top: 0;
@@ -122,9 +186,10 @@ ul.referral_icons {
 }
 
 .titles__image {
-  float: right;
+  // float: left;
   width: 200px;
-  margin: 1rem 0 0 0;
+  fill: #DBBC81;
+  margin: 1rem 0;
   @media screen and (min-width: 500px) {
     // float: none;
     width: 250px;
@@ -136,6 +201,41 @@ ul.referral_icons {
   }
 }
 
+.outerboxed {
+  margin: 0 auto;
+  max-width: 95%;
+  @media screen and (min-width: 500px) {
+    margin: 1rem 3rem 1rem 0;
+    float: right;
+  }
+}
+
+.innerboxed {
+  color: white;
+  width: 350px;
+  max-width: 95%;
+  @media screen and (min-width: 500px) {
+    height: 175px;
+    max-width: 100%;
+    border: 3px solid #474747;
+    margin: -1.2rem 0 0 -0.1rem;
+    padding: 1.75rem;
+    text-align: left;
+  }
+}
+
+.boxed {
+  width: 350px;
+  max-width: 90%;
+  background-image: url('/assets/img/5blue.jpg');
+  @media screen and (min-width: 500px) {
+    height: 175px;
+    max-width: 100%;
+    padding: 1rem;
+    // margin: 2rem 0 0 -2rem;
+    box-shadow: 1px 3px 10px 2px #39384a;
+  }
+}
 
 
 /*====================================
@@ -143,7 +243,7 @@ ul.referral_icons {
 ====================================*/
 
 .topbanner {
-  background-color: $acolor;
+  background-image: url('/assets/img/5blue.jpg');
   // border-bottom: 3px solid $badblood;
   // box-shadow: 0px 10px 16px -6px rgba(0,0,0,0.75);
   color: $paper;
@@ -151,10 +251,11 @@ ul.referral_icons {
   letter-spacing: 0.05rem;
   font-size: 0.9rem;
   line-height: 1.5;
-  width: 100%;
-  margin: 0;
+  max-width: 90%;
+  margin: 0 auto 2rem;
   padding: 1rem 1rem 0.25rem;
   @media screen and (min-width: 500px) {
+    width: 40%;
     p {
       max-width: 800px;
       margin: 0 auto;
@@ -166,7 +267,7 @@ ul.referral_icons {
 .story__bg {
   width: 100%;
   // height: 100%;
-  background-color: $paper;
+  // background-color: $paper;
   margin: 0 auto;
   padding: 16px;
   @media screen and (min-width: 500px) {
@@ -223,6 +324,52 @@ ul.referral_icons {
 }
 
 
+// .blur { font-family: Arial; font-weight: bold; }
+
+.blur{
+  /* firefox uses SVG filters */
+  filter: url(#A);
+  /* IE specific */
+  filter: progid:DXImageTransform.Microsoft.Blur(pixelradius=10);
+
+  -webkit-filter: blur(3px);
+  -moz-filter: blur(3px);
+  -ms-filter: blur(3px);
+  -o-filter: blur(3px);
+  filter: blur(3px);
+
+  color: #666;
+}
+
+.blur:hover {
+  /* firefox uses SVG filters */
+  filter: url(#B);
+  /* IE specific */
+  filter: progid:DXImageTransform.Microsoft.Blur(pixelradius=10);
+
+  -webkit-filter: blur(0px);
+  -moz-filter: blur(0px);
+  -ms-filter: blur(0px);
+  -o-filter: blur(0px);
+  filter: blur(0px);
+
+  color: #000;
+}
+
+.more-to-come {
+  width: 400px;
+  max-width: 90%;
+  background-image: url('/assets/img/5blue.jpg');
+  color: $paper;
+  font-weight: bold;
+  letter-spacing: 0.05rem;
+  line-height: 1.5;
+  font-size: 0.9rem;
+  text-align: left;
+  margin: 0 auto;
+  padding: 0.75rem;
+}
+
 
 /*====================================
 =           THANK YOU PAGE           =
@@ -239,6 +386,16 @@ ul.referral_icons {
   font-weight: bold;
   font-size: 1.75rem;
   padding: 0.5rem 0;
+}
+
+#solution__reveal {
+  border: 2px solid $acolor;
+  width: 600px;
+  max-width: 95%;
+  padding: 1rem;
+  p {
+    text-align: left;
+  }
 }
 
 .top{
@@ -402,10 +559,13 @@ header.topbanner {
 }
 
 .pl_email-tease {
-  color: $acolor;
+  color: $paper;
   text-align: left;
-  margin: 0;
-  padding: 0;
+  max-width: 250px;
+  margin: 1rem auto 0;
+  padding: 1rem;
+  background-image: url('/assets/img/5blue.jpg');
+  // opacity: 0.5;
 }
 
 input.pl_input {

@@ -114,12 +114,33 @@ mark, .mark {
 .grit {
    -webkit-mask-image: url("/assets/img/mytexture6.png");
    mask-image: url("/assets/img/mytexture6.png");
+   -webkit-filter: contrast(50%);
+   // opacity: 0.5;
+   // filter: alpha(opacity=50);
    // -webkit-mask-repeat: repeat-x;
    // mask-repeat: repeat-x;
    // -webkit-mask-clip: border;
    // -webkit-mask-origin: border;
 }
 
+.grit2 {
+  -webkit-mask-image: url("/assets/img/grit2.png");
+  mask-image: url("/assets/img/grit2.png");
+  // opacity: 0.5;
+  // filter: alpha(opacity=50);
+}
+
+.grit3 {
+   -webkit-mask-image: url("/assets/img/mytexture6.png");
+   mask-image: url("/assets/img/mytexture6.png");
+   // -webkit-filter: contrast(50%);
+   opacity: 0.5;
+   filter: alpha(opacity=50);
+   // -webkit-mask-repeat: repeat-x;
+   // mask-repeat: repeat-x;
+   // -webkit-mask-clip: border;
+   // -webkit-mask-origin: border;
+}
 
 
 .progbar {
@@ -170,4 +191,22 @@ mark, .mark {
 
 .ghost {
   color: $ghost;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.wrapper_960 {
+  width: 960px;
+  max-width: 95%;
+  margin: 0 auto;
+  text-align: center;
+  @media screen and (min-width: 500px) {
+    // text-align: left;
+  }
+}
+
+.no-border {
+  border: none;
 }

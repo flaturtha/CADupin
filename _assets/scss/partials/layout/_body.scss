@@ -1,5 +1,6 @@
 .main {
-  background: #242424 url(/assets/img/pulpicons.svg);
+  // background: #242424 url(/assets/img/pulpicons.svg);
+  height: 100vh;
 }
 
 .lp__bg {
@@ -9,7 +10,7 @@
     width: 95%;
     max-width: 60rem;
     margin: 50px auto;
-    background-color: $paper;
+    // background-color: $paper;
     @media screen and (min-width: 30rem) {
         width: 85%;
     }

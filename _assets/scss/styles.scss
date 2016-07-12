@@ -23,6 +23,7 @@
 /*==========  MODULES  ==========*/
 @import 'partials/modules/slabtext';
 @import 'partials/modules/fontresizer';
+@import 'partials/modules/mcform';
 
 
 /*==========  LAYOUT  ==========*/
@@ -47,11 +48,10 @@
 
 /*==========  PRELAUNCH  ==========*/
 @import 'partials/prelaunch/landingpage';
-@import 'partials/prelaunch/kol-takeover';
 
 
 
-
-
+/*==========  TESTING  ==========*/
+@import 'partials/testing-scss/papertest';
 
 
