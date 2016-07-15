@@ -43,23 +43,19 @@ title: Story
     <p>Herman Matthews was indignant. "You can't prove that. I got a witness who will swear my wife wanted to die. Be careful what you say, Officer."</p>
     <p id="reveal__top">A smile began to play over the lips of Captain Pearsons as he snapped back, "Of course you killed your wife. The evidence right there staring you in the face."</p>
     <p class="expander__question bloodied bold">What evidence did Captain Pearson see that proved Herman Matthews killed his wife?</p>
-    <p class="italic bold">Read the hint, below, &amp; think carefully before mousing over the hint to reveal the solution.</p>
+    <p class="italic bold narrow small">Read the hint, below, &amp; think carefully before clicking the hint to reveal the solution.</p>
   </article>
 
- <!-- <div class="hint">
-    <p class="ghost">HINT: Who turned off the gas?</p>
-     <button><a href="/solution_death_by_gas/">GET THE SOLUTION <i class="fa fa-arrow-circle-right"></i></a></button>
-  </div>-->
-
   <div id="solution__reveal" class="px600">
-    <h3 class="bloodied caps">Hint: Who turned off the&nbsp;gas?</h3>
-    <br>
-    <div class="blur">
-      <p>The testimony of the milkman showed he never touched the tube or the gas cock.</p>
-      <p>The patrolman took the tube from the girl’s mouth. If he didn’t turn it off, he must have seen it had been turned off.</p>
-      <p class="bold">That left only Herman — who, by force of habit — had turned the gas off.</p>
-    </div>
-  </div>
+    <input type="button" id="deblur-button" value="HINT: Who turned off the gas?">
+      <br>
+      <div class="blur transform">
+        <p>The testimony of the milkman showed he never touched the tube or the gas cock.</p>
+        <p>The patrolman took the tube from the girl’s mouth. If he didn’t turn it off, he must have seen it had been turned off.</p>
+        <p class="bold">That left only Herman — who, by force of habit — had turned the gas off.</p>
+      </div>
+    </input>
+  </div> <!-- end div#solutin__reveal -->
 
   <hr>
 
